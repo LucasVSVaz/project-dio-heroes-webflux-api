@@ -1,0 +1,13 @@
+package br.com.lucas.vaz.project.heroes.webflux.api;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ProjectHeroesWebfluxApiApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ProjectHeroesWebfluxApiApplication.class, args);
+    }
+
+}
